@@ -1,0 +1,25 @@
+substitutions:
+  relaypin_1: GPIO5
+  relaypin_2: GPIO4
+  relaypin_3: GPIO0
+  relaypin_4: GPIO2
+  switchpin_1: GPIO3
+  switchpin_2: GPIO13
+  switchpin_3: GPIO12
+  switchpin_4: GPIO14
+  statusled: GPIO16
+
+output:
+  - platform: gpio
+    pin: $relaypin_1
+    id: relay_1
+  - platform: gpio
+    pin: $relaypin_2
+    id: relay_2    
+  - platform: gpio
+    pin: $relaypin_3
+    id: relay_3    
+  - platform: gpio
+    pin: $relaypin_4
+    id: relay_4
+    
