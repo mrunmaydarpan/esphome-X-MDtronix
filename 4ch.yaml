@@ -9,11 +9,6 @@ substitutions:
   switchpin_4: GPIO14
   statusled: GPIO16
 
-esphome:
-  project: 
-    name: "MDtronix.4ch-switch"
-    version: "1.0"
-
 output:
   - platform: gpio
     pin: $relaypin_1
