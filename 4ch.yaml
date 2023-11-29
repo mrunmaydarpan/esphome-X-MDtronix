@@ -10,7 +10,9 @@ substitutions:
   statusled: GPIO16
 
 esphome:
-  project: "MDtronix-4ch"
+  project: 
+    name: "MDtronix.4ch-switch"
+    version: "1.0"
 
 output:
   - platform: gpio
